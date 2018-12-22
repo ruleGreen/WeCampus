@@ -1,0 +1,39 @@
+[ 2017-11-28T09:10:31+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/takeorder
+[ log ] t.cn:82/api/v1/takeorder [运行时间：0.100413s][吞吐率：9.96req/s] [内存消耗：1,348.17kb] [文件加载：36]
+
+---------------------------------------------------------------
+[ 2017-11-28T09:23:15+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/taketask
+[ log ] t.cn:82/api/v1/taketask [运行时间：0.086508s][吞吐率：11.56req/s] [内存消耗：1,588.04kb] [文件加载：39]
+
+---------------------------------------------------------------
+[ 2017-11-28T09:36:38+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/taketask
+[ log ] t.cn:82/api/v1/taketask [运行时间：0.026773s][吞吐率：37.35req/s] [内存消耗：1,588.02kb] [文件加载：39]
+
+---------------------------------------------------------------
+[ 2017-11-28T09:37:10+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=19731
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=19731 [运行时间：0.095902s][吞吐率：10.43req/s] [内存消耗：1,046.57kb] [文件加载：29]
+
+---------------------------------------------------------------
+[ 2017-11-28T09:37:53+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=10854
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=10854 [运行时间：0.030464s][吞吐率：32.83req/s] [内存消耗：1,046.63kb] [文件加载：29]
+
+---------------------------------------------------------------
+[ 2017-11-28T09:46:39+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user?XDEBUG_SESSION_START=13336
+[ log ] t.cn:82/api/v1/token/user?XDEBUG_SESSION_START=13336 [运行时间：8.189497s][吞吐率：0.12req/s] [内存消耗：2,477.08kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.069473s ] mysql:dbname=tianzi;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.030874s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oDZwh0e6RgUkvFTeANRePJboj_d8' LIMIT 1 [ RunTime:0.000782s ]
+
+---------------------------------------------------------------
+[ 2017-11-28T10:42:52+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=16930
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=16930 [运行时间：0.032650s][吞吐率：30.63req/s] [内存消耗：1,046.57kb] [文件加载：29]
+
+---------------------------------------------------------------
+[ 2017-11-28T10:45:32+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=11696
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=11696 [运行时间：0.033697s][吞吐率：29.68req/s] [内存消耗：1,046.63kb] [文件加载：29]
+
+---------------------------------------------------------------
+[ 2017-11-28T10:47:43+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=15625
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=15625 [运行时间：0.028780s][吞吐率：34.75req/s] [内存消耗：1,046.63kb] [文件加载：29]
+
+---------------------------------------------------------------

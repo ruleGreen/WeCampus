@@ -1,0 +1,236 @@
+[ 2017-11-24T09:08:53+08:00 ] ::1 ::1 GET /tianzi/public/
+[ log ] localhost:82/tianzi/public/ [运行时间：0.062334s][吞吐率：16.04req/s] [内存消耗：1,034.64kb] [文件加载：25]
+[ info ] [ LANG ] E:\Program\StudyTool\XAMPP\htdocs\tianzi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Program\StudyTool\XAMPP\htdocs\tianzi\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-24T09:14:30+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] tianzi.cn:82/ [运行时间：0.027352s][吞吐率：36.56req/s] [内存消耗：1,034.60kb] [文件加载：25]
+[ info ] [ LANG ] E:\Program\StudyTool\XAMPP\htdocs\tianzi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tianzi.cn:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Program\StudyTool\XAMPP\htdocs\tianzi\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-24T09:16:05+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] t.cn:82/ [运行时间：0.019041s][吞吐率：52.52req/s] [内存消耗：1,034.59kb] [文件加载：25]
+[ info ] [ LANG ] E:\Program\StudyTool\XAMPP\htdocs\tianzi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.cn:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Program\StudyTool\XAMPP\htdocs\tianzi\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-24T09:24:40+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] t.cn:82/ [运行时间：0.018585s][吞吐率：53.81req/s] [内存消耗：1,034.66kb] [文件加载：25]
+[ info ] [ LANG ] E:\Program\StudyTool\XAMPP\htdocs\tianzi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.cn:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Program\StudyTool\XAMPP\htdocs\tianzi\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-24T09:25:14+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] t.cn:82/ [运行时间：0.017599s][吞吐率：56.82req/s] [内存消耗：1,034.66kb] [文件加载：25]
+[ info ] [ LANG ] E:\Program\StudyTool\XAMPP\htdocs\tianzi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.cn:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\Program\StudyTool\XAMPP\htdocs\tianzi\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-24T18:01:05+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] t.cn:82/ [运行时间：0.411290s][吞吐率：2.43req/s] [内存消耗：1,038.51kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T18:21:09+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=15319
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=15319 [运行时间：0.032164s][吞吐率：31.09req/s] [内存消耗：1,038.68kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T18:21:27+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=12873
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=12873 [运行时间：0.020441s][吞吐率：48.92req/s] [内存消耗：1,038.74kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T18:24:44+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=12737
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=12737 [运行时间：0.029823s][吞吐率：33.53req/s] [内存消耗：1,038.74kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T18:29:20+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] t.cn:82/ [运行时间：0.027513s][吞吐率：36.35req/s] [内存消耗：1,038.51kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T18:36:29+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/test
+[ log ] t.cn:82/api/v1/test [运行时间：0.021075s][吞吐率：47.45req/s] [内存消耗：1,041.02kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T18:36:41+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=12865
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=12865 [运行时间：0.027126s][吞吐率：36.87req/s] [内存消耗：1,040.65kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T18:36:54+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user?XDEBUG_SESSION_START=12865
+[ log ] t.cn:82/api/v1/token/user?XDEBUG_SESSION_START=12865 [运行时间：0.017626s][吞吐率：56.73req/s] [内存消耗：1,041.44kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T18:37:28+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=13633
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=13633 [运行时间：0.022134s][吞吐率：45.18req/s] [内存消耗：1,040.65kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T18:39:06+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=11555
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=11555 [运行时间：0.030820s][吞吐率：32.45req/s] [内存消耗：1,040.65kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T18:40:33+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=16386
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=16386 [运行时间：0.019235s][吞吐率：51.99req/s] [内存消耗：1,040.65kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T18:41:29+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=14136
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=14136 [运行时间：0.024963s][吞吐率：40.06req/s] [内存消耗：1,040.65kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T18:43:38+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=16248
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=16248 [运行时间：0.030819s][吞吐率：32.45req/s] [内存消耗：1,040.65kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T18:45:42+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=16019
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=16019 [运行时间：0.024681s][吞吐率：40.52req/s] [内存消耗：1,040.65kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T18:48:32+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=10493
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=10493 [运行时间：0.032648s][吞吐率：30.63req/s] [内存消耗：1,040.65kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T18:50:11+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=14237
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=14237 [运行时间：0.027529s][吞吐率：36.33req/s] [内存消耗：1,040.65kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T18:57:55+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=18021
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=18021 [运行时间：0.021481s][吞吐率：46.55req/s] [内存消耗：1,040.65kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T18:59:37+08:00 ] ::1 ::1 GET /tianzi/public/index.php?XDEBUG_SESSION_START=11044
+[ log ] localhost:82/tianzi/public/index.php?XDEBUG_SESSION_START=11044 [运行时间：0.029876s][吞吐率：33.47req/s] [内存消耗：1,040.65kb] [文件加载：28]
+
+---------------------------------------------------------------
+[ 2017-11-24T19:13:24+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user?XDEBUG_SESSION_START=13336
+[ log ] t.cn:82/api/v1/token/user?XDEBUG_SESSION_START=13336 [运行时间：0.836060s][吞吐率：1.20req/s] [内存消耗：2,434.55kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001026s ] mysql:dbname=tianzi;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.014354s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oDZwh0e6RgUkvFTeANRePJboj_d8' LIMIT 1 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`openid`) VALUES ('oDZwh0e6RgUkvFTeANRePJboj_d8') [ RunTime:0.113201s ]
+
+---------------------------------------------------------------
+[ 2017-11-24T19:13:29+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user?XDEBUG_SESSION_START=13336
+[ log ] t.cn:82/api/v1/token/user?XDEBUG_SESSION_START=13336 [运行时间：0.666615s][吞吐率：1.50req/s] [内存消耗：2,471.16kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000992s ] mysql:dbname=tianzi;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.013981s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oDZwh0e6RgUkvFTeANRePJboj_d8' LIMIT 1 [ RunTime:0.000645s ]
+
+---------------------------------------------------------------
+[ 2017-11-24T19:20:13+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user?XDEBUG_SESSION_START=13336
+[ log ] t.cn:82/api/v1/token/user?XDEBUG_SESSION_START=13336 [运行时间：0.431726s][吞吐率：2.32req/s] [内存消耗：1,222.47kb] [文件加载：32]
+
+---------------------------------------------------------------
+[ 2017-11-24T19:20:46+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user?XDEBUG_SESSION_START=13336
+[ log ] t.cn:82/api/v1/token/user?XDEBUG_SESSION_START=13336 [运行时间：0.890842s][吞吐率：1.12req/s] [内存消耗：2,439.05kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001112s ] mysql:dbname=tianzi;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.015884s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oDZwh0e6RgUkvFTeANRePJboj_d8' LIMIT 1 [ RunTime:0.000629s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`openid`) VALUES ('oDZwh0e6RgUkvFTeANRePJboj_d8') [ RunTime:0.113780s ]
+
+---------------------------------------------------------------
