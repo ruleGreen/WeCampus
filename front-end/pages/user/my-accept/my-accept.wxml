@@ -1,0 +1,14 @@
+<!--pages/user/my-accept/my-accept.wxml-->
+<import src="../../../pages/community/tpl-item/xy-item-tpl.wxml"/>
+<view>
+ <loading hidden="{{hidden}}">
+  加载中...
+ </loading>
+</view>
+<view>
+  <block wx:for="{{PtAcceptList}}" wx:for-item="item" wx:for-index="idx">
+    <view catchtap="onTapToPtDetail" data-post-id="{{item.postId}}">
+      <template is="ptItemTpl" data="{{...item}}"/>
+    </view>
+  </block>
+</view>

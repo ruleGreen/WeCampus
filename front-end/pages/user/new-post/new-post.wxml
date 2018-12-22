@@ -1,0 +1,19 @@
+<!--pages/user/new-post/new-post.wxml-->
+<view class="post-container">
+  <view class="post-inform">
+    <text>请选择您要发布的信息：</text>
+  </view>
+  <view class="btn-inform">
+    <view class="submit-btn" catchtap="onTapJumpXY">随  性</view>
+    <view class="submit-btn" catchtap="onTapJumpPT">跑  腿</view>
+  </view>
+</view>
+<view class="text-container">
+  <view class="describe">
+    <text class="desc-title">发布须知</text>
+    <text class="desc-content">①用户有义务有责任确保发布内容真实有效，如出现恶意事件如传播不良信息等，本平台将采取相应措施。</text>
+    <text class="desc-content">②本平台不涉及用户之间的交易，仅提供交流渠道，如涉及金钱纠纷，本平台概不负责。</text>
+    <text class="desc-content">③请您在发布相应信息的时候，如有需要，请留下联系方式，本平台不提供用户间的私人聊天渠道。</text>
+    <text class="desc-content">④请大家礼貌发言，共同维护平台社区环境。</text>
+  </view>
+</view>

@@ -1,0 +1,74 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.91",
+	"appid": "wx9497b866cbd373ee",
+	"projectname": "WeCampus",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "评分",
+					"pathName": "pages/community/rank/rank",
+					"query": "id=5"
+				},
+				{
+					"id": -1,
+					"name": "schedule",
+					"pathName": "pages/user/schedule/schedule",
+					"query": ""
+				},
+				{
+					"id": 5,
+					"name": "签到",
+					"pathName": "pages/user/create-sign/create-sign",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "new-xy",
+					"pathName": "pages/user/new-xy/new-xy",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "new-pt",
+					"pathName": "pages/user/new-pt/new-pt",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "wel",
+					"pathName": "pages/welcome/welcome",
+					"query": ""
+				}
+			]
+		}
+	}
+}

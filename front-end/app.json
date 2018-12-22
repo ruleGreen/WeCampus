@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/frontpage/frontpage",
+    "pages/welcome/welcome",
+    "pages/home/home",
+    "pages/home/home-detail/home-detail",
+    "pages/community/community",
+    "pages/user/user",
+    "pages/user/my-post/my-post",
+    "pages/user/my-accept/my-accept",
+    "pages/user/my-image/my-image",
+    "pages/user/new-post/new-post",
+    "pages/user/new-xy/new-xy",
+    "pages/user/new-pt/new-pt",
+    "pages/user/aboutUs/aboutUs",
+    "pages/user/issues/issues",
+    "pages/user/schedule/schedule",
+    "pages/user/select-sign/select-sign",
+    "pages/user/create-sign/create-sign",
+    "pages/user/sign/sign",
+    "pages/community/rank/rank",
+    "pages/community/xy-detail/xy-detail",
+    "pages/community/post-comment/post-comment",
+    "pages/community/pt-detail/pt-detail"
+  ],
+  "tabBar": {
+    "borderStyle": "F0F0F0",
+    "selectedColor": "#6699CC",
+    "color": "#4A6141",
+    "backgroundColor": "#FCFCFC",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "学校",
+        "iconPath": "images/icon/wx_app_home2.png",
+        "selectedIconPath": "images/icon/wx_app_home1.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "images/icon/wx_app_comment2.png",
+        "selectedIconPath": "images/icon/wx_app_comment1.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/icon/wx_app_user2.png",
+        "selectedIconPath": "images/icon/wx_app_user1.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+<!--pages/user/aboutUs/aboutUs.wxml-->
+<view class="container">
+  <view class="header">
+    <!-- <view class="black-cover"></view> -->
+    <image class="title" src="/images/icon/wx_app_logo.jpg"></image>
+  </view>
+  <view class="content">
+    <view class="version">
+      <view class="version-title">
+        <text class="title-name">校内达</text>
+        <text class="version-text">公测</text>
+      </view>
+    </view>
+    <view class="describe">
+        <text class="desc-title">简介</text>
+        <view class="desc-list">
+          <text class="desc-list-item">Github(后端)：https://github.com/TianziZZH/campus</text>
+        </view>
+        <text class="desc-content">校内达是一款微信小程序，由中国传媒大学予墨书成工作室（学生技术组织/团队）开发，有别于公众号的一种全新的连接用户与服务的方式，无需下载与安装即可在微信内被便捷地获取和传播，同时具有出色的使用体验。</text>
+        <text class="desc-content">校内达是碎片化、一站式、一体化校园移动门户，适用于学生和教师，集新闻、活动、资料、随性、跑腿等功能于一身。</text>
+        <text class="desc-content">校内达更是/更有... （期待您的发现</text>
+    </view>
+    <view class="describe">
+      <text class="desc-content">如需洽谈合作，请联系微信号:whr2533573828</text>
+      <text class="desc-content">您的支持是我们前进最大的动力，无论多少我们都非常感谢。</text>
+      <view class="picture-container">
+        <image class="alipay" src="/images/icon/wx_app_alipay.png"></image>
+        <image class="wxpay" src="/images/icon/wx_app_wxpay.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="footer">
+    <view class="footer-lanshan">
+        <text>予墨书成工作室</text>
+    </view>
+    <text>Copyright @ {{year}} All Rights Reserved</text>
+  </view>
+</view>
+

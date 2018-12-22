@@ -1,0 +1,27 @@
+<!--pages/post/post-detail/post-detail.wxml-->
+<view class="container">
+  <text class="title">{{post.title}}</text>
+  <view class="divLine"></view>
+  <view class="author-data">
+    <view class="author-box">
+      <image class="avatar" src="{{post.avatar}}"></image>
+      <text class="author">{{post.author}}</text>
+      <text class="date">{{post.date}}</text>
+    </view>
+  </view>
+  <view class="author-box"> 
+    <text class="post-price">￥{{post.price}}</text>
+    <text class="post-rank">他的信用评分： {{post.rank}} 分</text>
+  </view>
+  <text class="detail">{{post.detail}}</text>
+</view>
+<view class="image-container">
+  <image class="head-image" src="{{post.postImg}}" mode="widthFix"></image>
+</view>
+<view hidden="{{post.state!=1||post.typeNum!=2}}" class="submit-btn" catchtap="onCancelTap">取消发布</view> 
+ <view class="tool">
+  <view class="tool-item comment" catchtap="onCommentTap" data-post-id="{{post.postId}}">
+    <image src="/images/icon/wx_app_message.png"></image>
+    <text>{{post.commentNum}}</text>
+  </view>
+</view> 

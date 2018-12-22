@@ -1,0 +1,155 @@
+page{
+  background-color: #FBF9FE;
+  height:100%;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row-wrap{
+  margin-top: 50rpx;
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100rpx;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+.input{
+  height: 100rpx;
+  margin-left: 3%;
+  width: 94%;
+}
+.text-area{
+  margin-top: 50rpx;
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  height: 350rpx;
+  background-color: #FFFFFF;
+}
+.input-area{
+  margin-left: 3%;
+  margin-top: 20rpx;
+  width: 94%;
+  height: 320rpx;
+}
+.price-text{
+  margin-left: 30rpx;
+  font-size: 40rpx;
+}
+.input-price{
+  height: 100rpx;
+  margin-left: 5%;
+  width: 65%;
+}
+.time-text{
+  margin-left: 30rpx;
+  font-size: 40rpx;
+}
+.input-Time{
+  height: 100rpx;
+  margin-left: 40rpx;
+  margin-right: 20rpx;
+  width: 120rpx;
+}
+.row-picture{
+  margin-top: 50rpx;
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  height: 480rpx;
+  background-color: #FFFFFF;
+}
+.label{
+  width: 100%;
+  margin-top: 25rpx;
+  margin-left:30rpx;
+  margin-bottom: 30rpx;
+  font-size: 40rpx;
+}
+.picture-container{
+  margin-left: 30rpx;
+}
+.send-more-box .more-btn-item{
+    display: inline-block;
+    width: 110rpx;
+    height: 145rpx;
+    margin-right: 35rpx;
+    text-align: center;
+}
+
+.more-btn-main{
+    width: 100%;
+    height:60rpx;
+    text-align: center;
+    border:1px solid #D5D5D5;
+    border-radius: 10rpx;
+    background-color: #fbfbfc;
+    margin: 0 auto;
+    padding:25rpx 0
+}
+.more-btn-main image{
+    width: 60rpx;
+    height: 60rpx;
+}
+.send-more-box .more-btn-item .btn-txt{
+    color: #888888;
+    font-size: 24rpx;
+    margin:10rpx 0;
+}
+
+.send-more-result-main{
+    margin-top: 30rpx;
+}
+.send-more-result-main .file-box{
+    margin-right: 14rpx;
+    height: 160rpx;
+    width: 160rpx;
+    position: relative;
+    display: inline-block;
+}
+
+.send-more-result-main .file-box.deleting{
+    animation:deleting 0.5s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes deleting {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+
+.send-more-result-main image{
+    height: 100%;
+    width: 100%;
+}
+.send-more-result-main .remove-icon{
+    position: absolute;
+    right: 5rpx;
+    top: 5rpx;
+}
+
+.send-more-result-main .file-box .img-box {
+    height: 100%;
+    width: 100%;
+}
+
+.submit-btn{
+  font-size: 50rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  line-height: 100rpx;
+  width: 90%;
+  height: 100rpx;
+  background-color: #6699CC;
+  border-radius:5rpx;
+  color: #fff;
+  text-align: center;
+  font-family:Microsoft Yahei;
+}

@@ -1,0 +1,17 @@
+<!--pages/user/create-sign/create-sign.wxml-->
+<view class="container">
+  <view class="code-container">
+    <view class="submit-btn" catchtap="onGetCode">获取签到码</view>
+    <text class="text-code">{{code}}</text>
+  </view>
+  <view class="result-container">
+    <view class="text-container">
+      <text class="text-flush">请点击刷新查看已签到学生学号： </text>
+    </view>
+    <view class="submit-btn" catchtap="onGetResult">刷新</view>
+    <view class="id-container">
+      <text class="text-flush">已签到人数: {{num}}</text>
+      <text class="text-flush">{{id}}</text>
+    </view>
+  </view>
+</view>

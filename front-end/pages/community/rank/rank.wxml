@@ -1,0 +1,85 @@
+<view class="rank-container">
+  <view class="rank-item">
+    <text class="item">效率</text>
+    <view class="stars">
+      <view catchtap='onTapScore1'data-id="1">
+        <image class="star" wx:if="{{score1<1}}"src="../../../images/icon/五角星_空.png"/>
+        <image class="star" wx:else src="../../../images/icon/五角星_实.png"/>
+      </view>
+      <view catchtap='onTapScore1'data-id="2">
+        <image class="star" wx:if="{{score1<2}}"src="../../../images/icon/五角星_空.png"/>
+        <image class="star" wx:else src="../../../images/icon/五角星_实.png"/>
+      </view>
+      <view catchtap='onTapScore1'data-id="3">
+        <image class="star" wx:if="{{score1<3}}"src="../../../images/icon/五角星_空.png"/>
+        <image class="star" wx:else src="../../../images/icon/五角星_实.png"/>
+      </view>
+      <view catchtap='onTapScore1'data-id="4">
+        <image class="star" wx:if="{{score1<4}}"src="../../../images/icon/五角星_空.png"/>
+        <image class="star" wx:else src="../../../images/icon/五角星_实.png"/>
+      </view>
+      <view catchtap='onTapScore1'data-id="5">
+        <image class="star" wx:if="{{score1<5}}"src="../../../images/icon/五角星_空.png"/>
+        <image class="star" wx:else src="../../../images/icon/五角星_实.png"/>
+      </view>
+    </view>
+    <text class="mold">{{mold1}}</text>
+  </view>
+  <view class="rank-item">
+    <text class="item">态度</text>
+    <view class="stars">
+      <view catchtap='onTapScore2'data-id="1">
+        <image class="star" wx:if="{{score2<1}}"src="../../../images/icon/五角星_空.png"/>
+        <image class="star" wx:else src="../../../images/icon/五角星_实.png"/>
+      </view>
+      <view catchtap='onTapScore2'data-id="2">
+        <image class="star" wx:if="{{score2<2}}"src="../../../images/icon/五角星_空.png"/>
+        <image class="star" wx:else src="../../../images/icon/五角星_实.png"/>
+      </view>
+      <view catchtap='onTapScore2'data-id="3">
+        <image class="star" wx:if="{{score2<3}}"src="../../../images/icon/五角星_空.png"/>
+        <image class="star" wx:else src="../../../images/icon/五角星_实.png"/>
+      </view>
+      <view catchtap='onTapScore2'data-id="4">
+        <image class="star" wx:if="{{score2<4}}"src="../../../images/icon/五角星_空.png"/>
+        <image class="star" wx:else src="../../../images/icon/五角星_实.png"/>
+      </view>
+      <view catchtap='onTapScore2'data-id="5">
+        <image class="star" wx:if="{{score2<5}}"src="../../../images/icon/五角星_空.png"/>
+        <image class="star" wx:else src="../../../images/icon/五角星_实.png"/>
+      </view>
+    </view>
+    <text class="mold">{{mold2}}</text>
+  </view>
+  <view class="rank-item">
+    <text class="item">满意度</text>
+    <view class="stars">
+      <view catchtap='onTapScore3'data-id="1">
+        <image class="star" wx:if="{{score3<1}}"src="../../../images/icon/五角星_空.png"/>
+        <image class="star" wx:else src="../../../images/icon/五角星_实.png"/>
+      </view>
+      <view catchtap='onTapScore3'data-id="2">
+        <image class="star" wx:if="{{score3<2}}"src="../../../images/icon/五角星_空.png"/>
+        <image class="star" wx:else src="../../../images/icon/五角星_实.png"/>
+      </view>
+      <view catchtap='onTapScore3'data-id="3">
+        <image class="star" wx:if="{{score3<3}}"src="../../../images/icon/五角星_空.png"/>
+        <image class="star" wx:else src="../../../images/icon/五角星_实.png"/>
+      </view>
+      <view catchtap='onTapScore3'data-id="4">
+        <image class="star" wx:if="{{score3<4}}"src="../../../images/icon/五角星_空.png"/>
+        <image class="star" wx:else src="../../../images/icon/五角星_实.png"/>
+      </view>
+      <view catchtap='onTapScore3'data-id="5">
+        <image class="star" wx:if="{{score3<5}}"src="../../../images/icon/五角星_空.png"/>
+        <image class="star" wx:else src="../../../images/icon/五角星_实.png"/>
+      </view>
+    </view>
+    <text class="mold">{{mold3}}</text>
+  </view>
+  <view class="rank-item">
+    <text class="item">您的意见</text>
+  </view>
+  <textarea class="input" style="height:250rpx;" bindblur="InputDetail"></textarea>
+  <button class="input-btn" catchtap='onInputTap'>提交评论</button>
+</view>

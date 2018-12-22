@@ -1,0 +1,23 @@
+<!--pages/user//my-post/my-post.wxml-->
+<import src="../../../pages/community/tpl-item/xy-item-tpl.wxml"/>
+<view>
+ <loading hidden="{{hidden}}">
+  加载中...
+ </loading>
+</view>
+<view class='my-post-xy'>
+  <text class='my-post-title'>随性</text>
+  <block wx:for="{{XyPostList}}" wx:for-item="item" wx:for-index="idx">
+    <view catchtap="onTapToXyDetail" data-post-id="{{item.postId}}">
+      <template is="postItemTpl" data="{{...item}}"/>
+    </view>
+  </block>
+</view>
+<view class='my-post-pt'>
+  <text class='my-post-title'>跑腿</text>
+  <block wx:for="{{PtPostList}}" wx:for-item="item" wx:for-index="idx">
+    <view catchtap="onTapToPtDetail" data-post-id="{{item.postId}}">
+      <template is="ptItemTpl" data="{{...item}}"/>
+    </view>
+  </block>
+</view>

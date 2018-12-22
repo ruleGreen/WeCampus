@@ -1,0 +1,58 @@
+<view class='input-container'>
+  <view class="row-wrap">
+    <input class="input" placeholder="请输入标题" bindinput="InputTitle"></input>
+  </view>
+  <view class="row-wrap">
+    <input class="input" placeholder="请输入简介" bindinput="InputContent"></input>
+  </view>
+  <view class='text-area'>
+    <textarea class="input-area" maxlength="-1" placeholder="请输入详情 (若有需要请留下联系方式)" bindinput='InputDetail'></textarea>
+  </view>
+  <view class="row-wrap">
+    <text class="time-text">有效时间</text>
+    <input class="input-Time" bindinput="InputDay" type="digit"></input>
+    <text class="time-text">天</text>
+    <input class="input-Time" bindinput="InputHour" type="digit"></input>
+    <text class="time-text">小时</text>
+  </view>
+  <view class="row-wrap">
+    <text class="price-text">价格</text>
+    <input class="input-price" bindinput="InputPrice" type="digit"></input>
+  </view>
+  <view class="row-picture">
+    <text class="label">图片</text>
+    <view class="picture-container">
+      <view class="send-more-box">
+        <!--选择图片和拍照的按钮-->
+        <view class="send-more-btns-main">
+          <view class="more-btn-item" catchtap="chooseImage" data-category="album">
+            <view class="more-btn-main">
+              <image src="/images/icon/wx_app_upload_image.png"></image>
+            </view>
+            <text>照片</text>
+          </view>
+          <view class="more-btn-item" catchtap="chooseImage" data-category="camera">
+            <view class="more-btn-main">
+              <image src="/images/icon/wx_app_camera.png"></image>
+            </view>
+            <text>拍照</text>
+          </view>
+        </view>
+        <!--显示选择的图片-->
+        <view class="send-more-result-main" hidden="{{chooseFiles.length==0}}">
+          <block wx:for="{{chooseFiles}}" wx:for-index="idx">
+            <!--如果删除其中一个，则对其添加deleting 样式；-->
+            <view class="file-box {{deleteIndex==idx?'deleting':''}}">
+              <view class="img-box">
+                <image src="{{item}}" mode="aspectFill"></image>
+                <icon class="remove-icon" type="cancel" size="23" color="#B2B2B2" catchtap="deleteImage" data-idx="{{idx}}" />
+              </view>
+            </view>
+          </block>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="submit-btn" catchtap="onSubTap">发 布</view>
+</view>
+

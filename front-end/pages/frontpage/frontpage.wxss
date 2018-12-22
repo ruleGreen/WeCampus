@@ -1,0 +1,5 @@
+/* pages/frontpage/frontpage.wxss */
+page{
+  background-color: #6699CC;
+  height:100%;
+}

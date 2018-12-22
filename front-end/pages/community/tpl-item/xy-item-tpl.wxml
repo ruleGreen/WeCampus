@@ -1,0 +1,43 @@
+<template name="postItemTpl">
+  <view class="post-container">
+    <view class="post-inform">
+      <view class="post-author">
+        <image src="{{avatar}}"></image>
+        <text>{{author}}</text>
+        <text>{{date}}</text>
+      </view>
+      <text class="post-price">￥{{price}}</text>
+    </view>
+    <text class="post-title">{{title}}</text>
+    <view class="image-container">
+      <image class="post-image" src="{{postImg}}" mode="aspectFill"/>
+    </view>
+    <text class="post-content">{{content}}</text>
+      <!-- <view class="post-like">
+      <text>{{commentNum}}</text>
+      <image src="/images/icon/wx_app_message.png"/>
+    </view>   -->
+  </view>
+</template>
+
+<template name="ptItemTpl">
+  <view class="post-container">
+    <view class="post-inform">
+      <view class="post-author">
+        <image src="{{avatar}}"></image>
+        <text>{{author}}</text>
+        <text>{{date}}</text> 
+        <text>{{school}}</text>
+      </view>
+    </view>
+    <text class="post-content">{{content}}</text>
+    <view class="post-like">
+      <text class="post-price">赚 {{price}} 元</text>
+      <text wx:if="{{state==2}}">已被接单</text>
+      <text wx:elif="{{state==1}}">可接单</text>
+      <text wx:elif="{{state==0}}">等待删除</text>
+      <text wx:elif="{{state==3}}">已送达</text>
+      <text wx:else>已结单</text>
+    </view>
+ </view>
+</template>

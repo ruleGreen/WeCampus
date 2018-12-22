@@ -1,0 +1,79 @@
+<!--pages/home/home.wxml-->
+<view>
+ <loading hidden="{{hidden}}">
+  加载中...
+ </loading>
+</view>
+<view class='container'>
+  <swiper vertical='{{false}}' indicator-dots='true' autoplay='true' interval="5000" circular='true'>
+    <block wx:for="{{BannerList}}" wx:for-item="item" wx:for-index="idx">
+      <swiper-item>
+        <image src="{{item.postImg}}" catchtap="onTapToDetail" data-post-id="{{item.postId}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- <view class="btn-box">
+    <image src="/images/icon/wx_app_student.png"></image>
+    <image src="/images/icon/wx_app_teacher.png"></image>
+  </view> -->
+  <!--导航条--> 
+  <view class="navbar"> 
+    <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text> 
+  </view>
+  <!-- 新闻 -->
+  <view hidden="{{currentTab!==0}}"> 
+    <view class="home-list">
+      <block wx:for="{{NewsList}}" wx:for-item="item" wx:for-index="idx" wx:if="{{item.posttype==1}}">
+        <view catchtap="onTapToDetail" data-post-id="{{item.postId}}">
+          <view class="post-container"> 
+            <image class="post-image" src="{{item.postImg}}"></image>
+            <view class="text-container">
+              <text style='margin-left:20rpx;'>{{item.title}}</text>
+              <view class="post-date">
+                <text>{{item.date}}</text>
+              </view>
+            </view>
+          </view>  
+        </view> 
+      </block>
+    </view>  
+  </view>
+  <!-- 活动 -->
+  <view hidden="{{currentTab!==1}}"> 
+    <view class="home-list">
+      <block wx:for="{{NewsList}}" wx:for-item="item" wx:for-index="idx" wx:if="{{item.posttype==2}}">
+        <view catchtap="onTapToDetail" data-post-id="{{item.postId}}">
+          <view class="post-container"> 
+            <image class="post-image" src="{{item.postImg}}"></image>
+            <view class="text-container">
+              <text>{{item.title}}</text>
+              <view class="post-date">
+                <text>{{item.date}}</text>
+              </view>
+            </view>
+          </view>  
+        </view> 
+      </block>
+    </view>  
+  </view>
+  <!-- 资料 -->
+  <view hidden="{{currentTab!==2}}"> 
+    <view class="home-list">
+      <block wx:for="{{NewsList}}" wx:for-item="item" wx:for-index="idx" wx:if="{{item.posttype==3}}">
+        <view catchtap="onTapToDetail" data-post-id="{{item.postId}}">
+          <view class="post-container"> 
+            <image class="post-image" src="{{item.postImg}}"></image>
+            <view class="text-container">
+              <text>{{item.title}}</text>
+              <view class="post-date">
+                <text>{{item.date}}</text>
+              </view>
+            </view>
+          </view>  
+        </view> 
+      </block>
+    </view>  
+  </view>
+  
+</view>
+

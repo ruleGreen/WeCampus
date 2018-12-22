@@ -1,0 +1,20 @@
+<view class='input-container'>
+  <view class='text-area'>
+    <textarea class="input-area" maxlength="-1" placeholder="物品描述 (若有需要请留下联系方式)" bindinput='InputContent'></textarea>
+  </view>
+  <view class="row-wrap">
+    <input class="input" placeholder="目标地点" bindinput="InputAddress"></input>
+  </view>
+  <view class="row-wrap">
+    <text class="time-text">有效时间</text>
+    <input class="input-Time" bindinput="InputDay" type="digit"></input>
+    <text class="time-text">天</text>
+    <input class="input-Time" bindinput="InputHour" type="digit"></input>
+    <text class="time-text">小时</text>
+  </view>
+  <view class="row-wrap">
+    <text class="price-text">犒赏金额</text>
+    <input class="input-price" bindinput="InputPrice" type="digit"></input>
+  </view>
+  <view class="submit-btn" catchtap="onSubTap">发 布</view>
+</view>

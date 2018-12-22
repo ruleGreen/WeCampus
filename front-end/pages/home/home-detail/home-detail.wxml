@@ -1,0 +1,16 @@
+<!--pages/home/home-detail/home-detail.wxml-->
+<import src="../../../wxParse/wxParse.wxml"/>
+<view>
+ <loading hidden="{{hidden}}">
+  加载中...
+ </loading>
+</view>
+<view class="container">
+  <text class="title">{{post.title}}</text>
+  <view class="divLine"></view>
+  <!--<text class="detail">{{post.content}}</text>-->
+  <view class="text-container">
+    <template is="wxParse" data="{{wxParseData:content.nodes}}"/>
+  </view>
+</view>
+<!-- <image wx:if="{{post.postImg!='/images/icon/wx_app_news.gif'&&post.postImg!='/images/icon/wx_app_event.gif'&&post.postImg!='/images/icon/wx_app_datum.gif'}}" class="head-image" src="{{post.postImg}}" mode="aspectFit"></image> -->

@@ -1,0 +1,14 @@
+<!--issues.wxml-->
+<view class="container">
+  <view class="issues-list">
+    <view class="issues-panel">
+      <view class="issues-input {{(showError&&!title)?'error':''}}">
+        <input placeholder="请输入反馈标题" bindinput="listenerTitle" />
+      </view>
+      <textarea class="issues-textarea {{(showError&&!content)?'error':''}}" cursor-spacing="50" placeholder="请输入反馈内容" bindinput="listenerTextarea"></textarea>
+    </view>
+    <view class="submit-btn" bindtap="submit">
+      <text style='color:#fff'>提交反馈</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,18 @@
+<!--pages/user/select-sign/select-sign.wxml-->
+<view class="post-container">
+  <view class="post-inform">
+    <text>请选择您要进行的操作：</text>
+  </view>
+  <view class="btn-inform">
+    <view class="submit-btn" catchtap="onTapJumpCS">创建签到</view>
+    <view class="submit-btn" catchtap="onTapJumpS">确认签到</view>
+  </view>
+</view>
+<view class="text-container">
+  <view class="describe">
+    <text class="desc-title">签到须知</text>
+    <text class="desc-content">①点击创建签到后可获取签到码，学生输入签到码后即可查看到已签到学生的学号。</text>
+    <text class="desc-content">②学生点击确认签到后输入签到码即可完成签到。</text>
+    <text class="desc-content">③签到码有效时间为1分钟，过期失效。</text>
+  </view>
+</view>

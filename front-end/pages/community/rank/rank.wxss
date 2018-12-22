@@ -1,0 +1,48 @@
+.rank-container{
+  margin-top:80rpx;
+}
+.rank-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30rpx;
+}
+.item{
+  font-size: 40rpx;
+  margin-left: 50rpx;
+  width: 180rpx;
+}
+.input{
+  margin-left: 40rpx;
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  color:#000000;
+  border: 1px solid #E0E0E0;
+  border-radius:10%;
+  width: 650rpx;
+}
+.stars{
+  display: flex;
+  flex-direction: row;
+  margin-left: 50rpx;
+}
+.star{
+  width: 60rpx;
+  height: 60rpx;
+  margin: 0 10rpx 0 0;
+}
+.mold{
+  margin-left: 40rpx;
+  font-size: 25rpx;
+}
+.input-btn{
+  margin-left: 400rpx;
+  margin-top: 60rpx;
+  width: 250rpx;
+  height: 100rpx;
+  background-color: #6699CC;
+  border-radius:5rpx;
+  color: #fff;
+  font-size: 40rpx;
+  font-family:Microsoft Yahei;
+}

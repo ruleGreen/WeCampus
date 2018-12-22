@@ -1,0 +1,17 @@
+<!--pages/user/my-image/my-image.wxml-->
+<view class="post-container">
+  <view class="post-inform">
+    <image wx:if="{{myImage>=4}}" src="/images/icon/wx_app_image1.png"></image>
+    <image wx:elif="{{myImage<4&&myImage>=2}}" src="/images/icon/wx_app_image2.png"></image>
+    <image wx:else src="/images/icon/wx_app_image3.png"></image>
+    <text>同学印象:</text>
+    <view class="submit-btn">{{myImage}} 分</view>
+  </view>
+</view>
+<view class="text-container">
+  <view class="describe">
+    <text class="desc-title">评分须知</text>
+    <text class="desc-content">①您的印象分是由当前订单的得分与历史评分记录使用特定的评分算法综合计算而来。</text>
+    <text class="desc-content">②印象分细分为3个维度，分别是“效率”、“态度”、“满意度”，当您的印象分低于3分的时候可能会影响您在本平台的信用评级，从而导致您无法发布新的内容或无法接单。</text>
+  </view>
+</view>

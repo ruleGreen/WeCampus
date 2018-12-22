@@ -1,0 +1,33 @@
+/* pages/community/community.wxss */
+@import"tpl-item/xy-item-tpl.wxss";
+
+page{ 
+ display: flex; 
+ flex-direction: column; 
+ height: 100%; 
+} 
+.navbar{ 
+ flex: none; 
+ display: flex; 
+ background: #fff; 
+} 
+.navbar .item{ 
+ position: relative; 
+ flex: auto; 
+ text-align: center; 
+ line-height: 80rpx; 
+} 
+.navbar .item.active{ 
+ color: #0F88EB; 
+} 
+.navbar .item.active:after{ 
+ content: ""; 
+ display: block; 
+ position: absolute; 
+ bottom: 0; 
+ left: 0; 
+ right: 0; 
+ height: 4rpx; 
+ background: #0F88EB; 
+} 
+

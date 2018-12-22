@@ -1,0 +1,9 @@
+<!--pages/user/sign/sign.wxml-->
+<view class="container">
+  <view class="input-container">
+    <view class="row-wrap">
+      <input class="input" placeholder="请输入签到码" bindinput="InputCode"></input>
+    </view>
+    <view class="submit-btn" catchtap="onTapSign">确认签到</view>
+  </view>
+</view>

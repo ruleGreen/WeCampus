@@ -1,0 +1,36 @@
+<!--pages/community/community.wxml-->
+<import src="tpl-item/xy-item-tpl.wxml"/>
+<view>
+ <loading hidden="{{hidden}}">
+  加载中...
+ </loading>
+</view>
+<!--导航条--> 
+<view class="navbar"> 
+ <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text> 
+</view> 
+ 
+<!--闲鱼-->
+<view hidden="{{currentTab!==0}}" class="xy-container"> 
+  <block wx:for="{{XyList}}" wx:for-item="item" wx:for-index="idx">
+    <view catchtap="onTapToXyDetail" data-post-id="{{item.postId}}">
+      <template is="postItemTpl" data="{{...item}}"/>
+    </view>
+  </block>
+</view>
+
+ 
+<!--跑腿--> 
+<view hidden="{{currentTab!==1}}" class="pt-container"> 
+  <block wx:for="{{PtList}}" wx:for-item="item" wx:for-index="idx">
+    <view catchtap="onTapToPtDetail" data-post-id="{{item.postId}}">
+      <template is="ptItemTpl" data="{{...item}}"/>
+    </view>
+  </block>
+</view> 
+ 
+<!--交流--> 
+<!-- <view hidden="{{currentTab!==2}}"> 
+123 
+</view>  -->
+

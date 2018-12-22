@@ -1,0 +1,46 @@
+
+<!--pages/community/pt-detail/pt-detail.wxml-->
+<view class="container">
+  <view class="author-data">
+    <view class="author-box">
+      <image src="{{post.avatar}}"></image>
+      <text>{{post.author}}</text>
+      <text>{{post.dateTime}}</text>
+      <text>{{post.school}}</text>
+    </view>
+    <view class="divLine"></view>
+  </view> 
+  <text class="content">{{post.content}}</text>
+  <view class="divLine"></view>
+  <view class="detail">
+    <image src="/images/icon/wx_app_image1.png"></image>
+    <text>他的信用评分： {{post.rank}} 分</text>
+  </view>
+  <view class="detail">
+    <image src="/images/icon/wx_app_location.png"></image>
+    <text>{{post.address}}</text>
+  </view>
+  <view class="detail">
+    <image src="/images/icon/wx_app_price.png"></image>
+    <text>送达支付 {{post.price}} 元</text>
+  </view>
+  <text wx:if="{{post.state==0}}" class="detail">订单等待删除</text>
+  <image wx:if="{{post.state==1}}" class="state" src="/images/icon/wx_app_state1.png"></image>
+  <image wx:elif="{{post.state==2}}" class="state" src="/images/icon/wx_app_state2.png"></image>
+  <image wx:elif="{{post.state==3}}" class="state" src="/images/icon/wx_app_state3.png"></image>
+  <image wx:elif="{{post.state==4}}" class="state" src="/images/icon/wx_app_state4.png"></image>
+  <view hidden="{{post.state!=1||post.typeNum!=1}}" class="submit-btn" catchtap="onAcceptTap">我要抢单</view>
+  <view hidden="{{post.state!=2||post.typeNum!=4}}" class="submit-btn" catchtap="onAcceptTap">取消抢单</view>
+  <!-- <view hidden="{{post.state!=2||post.typeNum!=4}}" class="submit-btn" catchtap="onFinishTap">我已送达</view> -->
+  <view hidden="{{post.state!=2||post.typeNum!=3}}" class="submit-btn" catchtap="onFinishTap">确认送达</view>
+  <view hidden="{{post.state!=1||post.typeNum!=3}}" class="submit-btn" catchtap="onCancelTap">取消发布</view>
+  <view hidden="{{post.state!=3||post.typeNum!=3||post.ranked!=1}}" class="submit-btn" catchtap="onRankTap">发布评价</view>
+  <view hidden="{{post.state!=3||post.typeNum!=4||post.ranked!=1}}" class="submit-btn" catchtap="onRankTap">发布评价</view>
+</view>
+<!-- <view class="tool">
+  <view class="tool-item comment" catchtap="onCommentTap" data-post-id="{{post.postId}}">
+    <image src="/images/icon/wx_app_message.png"></image>
+    <text>{{post.commentNum}}</text>
+  </view>
+</view> -->
+
